@@ -1,7 +1,3 @@
-// let hourText = document.getElementById("hour")
-// let minText = document.getElementById("min")
-// let secondText = document.getElementById("second")
-
 let timeFormat = document.getElementsByName("format")
 let DateFormat = document.getElementById("dateFormat")
 let currentFormat = "24"
@@ -89,4 +85,5 @@ function update() {
 }
 
 setInterval(update, 1000) //Used as a way to update time every second (required assistance with this)
+
 document.addEventListener("DOMContentLoaded", () => {update()})
